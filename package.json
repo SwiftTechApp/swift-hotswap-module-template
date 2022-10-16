@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/vihangatheturtle/swift-hotswap-module-template#readme",
   "dependencies": {
-    "pkg": "^5.8.0",
-    "websockets": "^0.2.0"
+    "node-fetch": "^2.6.7",
+    "websocket": "^1.0.34"
   }
 }

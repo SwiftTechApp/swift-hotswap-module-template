@@ -1,0 +1,14 @@
+{
+    "name": "Swift AIO Test Module",
+    "id": "9b25813b-0392-4309-b179-be16017e69f2",
+    "description": "This module will be used to test the Swift AIO module hotswap loader",
+    "author": "Turtlee",
+    "permissions": [
+        "walletAccess",
+        "interceptETHMint",
+        "interceptSOLMint",
+        "interceptETHSnipe",
+        "applicationDesign",
+        "customPages"
+    ]
+}
