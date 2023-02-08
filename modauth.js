@@ -4,7 +4,7 @@ const config = require("./config.json");
 async function getSessionToken() {
     console.log("Requesting modauth token from remote server");
     try {
-        const req = await fetch("https://modules.swifttech.app/generateModuleAuth", {
+        const req = await fetch("https://mods.swifttech.app/generateModuleAuth", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
