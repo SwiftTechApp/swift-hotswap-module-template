@@ -34,7 +34,7 @@ function establishLocalServerConnection(token) {
         conn = c;
         console.log("Connected to backend, authenticating...");
 
-        // Timeout authntication if it takes longer than 30 sec
+        // Timeout authentication if it takes longer than 30 sec
         authTimeout = setTimeout(() => {
             if (authedSuccess)
                 return
